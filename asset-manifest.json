@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/pokeappgalih/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/pokeappgalih/static/js/main.39de5cb1.chunk.js",
+    "main.js.map": "/pokeappgalih/static/js/main.39de5cb1.chunk.js.map",
+    "runtime-main.js": "/pokeappgalih/static/js/runtime-main.570e2f51.js",
+    "runtime-main.js.map": "/pokeappgalih/static/js/runtime-main.570e2f51.js.map",
+    "static/js/2.d0c2cf4e.chunk.js": "/pokeappgalih/static/js/2.d0c2cf4e.chunk.js",
+    "static/js/2.d0c2cf4e.chunk.js.map": "/pokeappgalih/static/js/2.d0c2cf4e.chunk.js.map",
+    "static/js/3.c2889e90.chunk.js": "/pokeappgalih/static/js/3.c2889e90.chunk.js",
+    "static/js/3.c2889e90.chunk.js.map": "/pokeappgalih/static/js/3.c2889e90.chunk.js.map",
+    "index.html": "/pokeappgalih/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/pokeappgalih/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.d0c2cf4e.chunk.js.LICENSE.txt": "/pokeappgalih/static/js/2.d0c2cf4e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.570e2f51.js",
+    "static/js/2.d0c2cf4e.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.39de5cb1.chunk.js"
+  ]
+}
