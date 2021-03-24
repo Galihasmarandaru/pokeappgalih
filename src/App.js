@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from 'react';
+import "./App.css";
+import { UserContext } from './UserContext'
+
+import PokemonsData from './Pokemon/Pokemons'
+import MyPokemon from './Pokemon/MyPokemons'
+import NavigationMenu from './Navigation/Menu'
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
 
 function App() {
+  const [value, setValue] = useState('Hello Pokemon');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+      <Router>
+        <NavigationMenu />
+        <UserContext.Provider value={{value, setValue}}>
+            <Route exact path="/" component={PokemonsData} />
+            <Route exact path="/my-pokemons" component={MyPokemon} />           
+        </UserContext.Provider>
+      </Router>
+    );  
+};
 
 export default App;
